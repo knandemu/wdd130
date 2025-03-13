@@ -22,11 +22,11 @@ p {
 }
 main {
     width: 500px;
-    padding: auto;
+    padding: 10px;
 }
 aside {
     width: 30rem;
-    margin: ;
+    margin: 1px;
     border: 2px;
     padding: 1em;
     background-color: #eee;
