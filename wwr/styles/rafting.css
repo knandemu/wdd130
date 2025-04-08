@@ -32,11 +32,11 @@ h2 {
     height: auto;
 }
 
-/* article {
+* article {
     position: absolute;
     opacity: 0.5px;
-    background-color: #ffffffa6;
-} */
+    background-color: #fff;
+} 
  h2 {
     position: absolute;
     background-color: #000000bc; 
@@ -44,17 +44,17 @@ h2 {
   header {
     display: grid;
     grid-template-columns: 300px 200px 200px 200px 200px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b86200b5;
-    margin: 1rem auto;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #fff;
+    margin: .3rem auto;
     max-width: max-content;
 
 
   }
   .logo-box {
-    margin: 1rem 0.25rem 1rem 1rem;
-    width: 64px;
+    margin: 1rem;
+    width: 50px;
     height: auto;
   }
   nav {
@@ -71,14 +71,122 @@ h2 {
 
   }
   button {
-    display: flex;
-    border-radius: 2px;
-    justify-content: space-between;
+     border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #B86200;
+    color: #fff;
+    font-weight: bold;
+
   }
   footer {
     display: grid;
-    grid-template-columns: 80% 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 90% 1fr 1fr;
+    justify-content: first baseline;
 
   }
+
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label, input, button, select, textarea {
+    font-family: roboto, sans-serif, Arial, Helvetica, sans-serif;
+
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+
+}
+.submit {
+    margin-top: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    width: 8em;
+
+}
+.submit:hover {
+    background-color: darkgreen;
+} 
+.submit:active {
+    background-color: #fff;
+    color: navy;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px solid #ccc;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+select {
+    width: 8rem;
+    display: grid;
+    align-items: right;
+    position: relative;
+}
+.employees {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: skyblue;
+  padding: 10px;
+  align-items: center;
+  border-radius:2px;
+}
+.span {
+  display: grid;
+  grid-template-rows: 4fr;
+  
+}
+h3 {
+  display: flexbox;
+  position: absolute;
+  font-family: sans-serif;
+  color: navy;
+}
  
